@@ -1,0 +1,11 @@
+POST http://localhost:10260/jsonrpc
+Content-Type: application/json
+
+{
+    "jsonrpc": "2.0",
+    "id" : 1,
+    "method": "HelloService.Say",
+    "params": {
+        "who": "Tristan"
+    }
+}
